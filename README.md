@@ -27,8 +27,10 @@ extract only the sensible data for the sentiment analysis. Below is the process 
 
 I have used lexicons from tidy text package to get the sentiments of the words. There are three types of lexicons based on the Unigram,
 
-• AFINN from Finn Årup Nielsen,
-• bing from Bing Liu and collaborators, and
+• AFINN from Finn Årup Nielsen
+
+• bing from Bing Liu and collaborators
+
 • nrc from Saif Mohammad and Peter Turney
 
 These lexicons contain many English words and the words are assigned scores for
@@ -39,7 +41,6 @@ The bing lexicon categorizes words in a binary fashion into positive and negativ
 The AFINN lexicon assigns words with a score that runs between -5 and 5, with negative
 scores indicating negative sentiment and positive scores indicating positive sentiment.
 I have used ‘nrc’ lexicons to get the number of words with the different emotions.
-
 
 Once the scores are assigned to the words I have grouped based on the tweet
 ID and took a sum of score which gave the total sentiment of the tweet.
