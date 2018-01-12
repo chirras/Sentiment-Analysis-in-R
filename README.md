@@ -13,8 +13,12 @@ As the tweets extracted as very unstructured, it was great deal to clean the dat
 extract only the sensible data for the sentiment analysis. Below is the process followed to clean the data.
 
 • Removing all the special characters from the tweets
-• Removing the usernames and hyperlinks.
+
+• Removing the usernames and hyperlinks
+
 • Creating the corpus of text using all the tweets
-• Removing stop words, punctuation, numbers, white spaces and other specific words.
-• Transforming the tweets to lower case.
+
+• Removing stop words, punctuation, numbers, white spaces and other specific words
+
+• Transforming the tweets to lower case
 
