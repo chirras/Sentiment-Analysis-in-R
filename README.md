@@ -12,7 +12,7 @@ last one week data, it helped in getting the current emotions of the people.
 As the tweets extracted as very unstructured, it was great deal to clean the data to
 extract only the sensible data for the sentiment analysis. Below is the process followed to clean the data.
 
-• Removing all the special characters from the tweets \n
+• Removing all the special characters from the tweets
 • Removing the usernames and hyperlinks
 • Creating the corpus of text using all the tweets
 • Removing stop words, punctuation, numbers, white spaces and other specific words
